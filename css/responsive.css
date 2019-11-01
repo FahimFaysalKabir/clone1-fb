@@ -1,0 +1,45 @@
+@media screen and (max-width:980px){
+  .logo{
+    width:100%;
+    float:none;
+    text-align: center;
+  }
+  .input-area{
+    width:380px;
+    float: none;
+    margin: auto;
+  }
+  .fb-left{
+    width:100%;
+    float: none;
+  }
+  .fb-right{
+    width:100%;
+    float:none;
+  }
+}
+@media screen and (max-width:768px){
+  .input-area{
+    width:100%;
+
+  }
+  .input-area .input1,.input2
+
+  {
+    float: none;
+    width: 100%;
+    margin-right:0px;
+  }
+  .input-area input[type="text"],
+  .input-area input[type="password"]
+  {
+    width:100%;
+    box-sizing: border-box;
+  }
+
+}
+@media screen and (max-width:480px){
+  .mid{
+    width:90%;
+  }
+}
